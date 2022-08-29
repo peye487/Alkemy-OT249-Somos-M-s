@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.alkemy.ong.OngApplicationTests" time="37.418" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server\target\test-classes;C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server\target\classes;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.1\spring-boot-starter-data-jpa-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.1\spring-boot-starter-aop-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.1\spring-boot-starter-jdbc-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-jdbc\5.3.8\spring-jdbc-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Juan Pablo\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\Juan Pablo\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\Juan Pablo\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Juan Pablo\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\Juan Pablo\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Juan Pablo\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Juan Pablo\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Juan Pablo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\Juan Pablo\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\Juan Pablo\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Juan Pablo\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-orm\5.3.8\spring-orm-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-context\5.3.8\spring-context-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-tx\5.3.8\spring-tx-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-beans\5.3.8\spring-beans-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-aspects\5.3.8\spring-aspects-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.1\spring-boot-starter-security-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.1\spring-boot-starter-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot\2.5.1\spring-boot-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.1\spring-boot-autoconfigure-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.1\spring-boot-starter-logging-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Juan Pablo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Juan Pablo\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Juan Pablo\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-aop\5.3.8\spring-aop-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-expression\5.3.8\spring-expression-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.1\spring-boot-starter-web-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.1\spring-boot-starter-json-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.1\spring-boot-starter-tomcat-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-web\5.3.8\spring-web-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-webmvc\5.3.8\spring-webmvc-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\session\spring-session-core\2.5.0\spring-session-core-2.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-jcl\5.3.8\spring-jcl-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\Juan Pablo\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.1\spring-boot-starter-test-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-test\2.5.1\spring-boot-test-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.1\spring-boot-test-autoconfigure-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Juan Pablo\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Juan Pablo\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Juan Pablo\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Juan Pablo\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\Juan Pablo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Juan Pablo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\Juan Pablo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\Juan Pablo\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Juan Pablo\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\Juan Pablo\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Juan Pablo\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-core\5.3.8\spring-core-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-test\5.3.8\spring-test-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-test\5.5.0\spring-security-test-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.5.1\spring-boot-starter-validation-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar;C:\Users\Juan Pablo\.m2\repository\org\hibernate\validator\hibernate-validator\6.2.0.Final\hibernate-validator-6.2.0.Final.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\Juan Pablo\.m2\repository\com\sendgrid\sendgrid-java\4.9.3\sendgrid-java-4.9.3.jar;C:\Users\Juan Pablo\.m2\repository\com\sendgrid\java-http-client\4.5.0\java-http-client-4.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar;C:\Users\Juan Pablo\.m2\repository\org\modelmapper\modelmapper\3.1.0\modelmapper-3.1.0.jar;C:\Users\Juan Pablo\.m2\repository\org\modelmapper\extensions\modelmapper-spring\3.1.0\modelmapper-spring-3.1.0.jar;C:\Users\Juan Pablo\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.12.1\aws-java-sdk-s3-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.12.1\aws-java-sdk-kms-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\aws-java-sdk-core\1.12.1\aws-java-sdk-core-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Juan Pablo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Juan Pablo\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.12.3\jackson-dataformat-cbor-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\jmespath-java\1.12.1\jmespath-java-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-ui\1.6.9\springdoc-openapi-ui-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-webmvc-core\1.6.9\springdoc-openapi-webmvc-core-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-common\1.6.9\springdoc-openapi-common-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\io\swagger\core\v3\swagger-core\2.2.0\swagger-core-2.2.0.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.12.3\jackson-dataformat-yaml-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.0\swagger-annotations-2.2.0.jar;C:\Users\Juan Pablo\.m2\repository\io\swagger\core\v3\swagger-models\2.2.0\swagger-models-2.2.0.jar;C:\Users\Juan Pablo\.m2\repository\org\webjars\swagger-ui\4.11.1\swagger-ui-4.11.1.jar;C:\Users\Juan Pablo\.m2\repository\org\webjars\webjars-locator-core\0.46\webjars-locator-core-0.46.jar;C:\Users\Juan Pablo\.m2\repository\io\github\classgraph\classgraph\4.8.147\classgraph-4.8.147.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-data-rest\1.6.9\springdoc-openapi-data-rest-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-hateoas\1.6.9\springdoc-openapi-hateoas-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\hateoas\spring-hateoas\1.3.1\spring-hateoas-1.3.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\data\spring-data-rest-core\3.5.1\spring-data-rest-core-3.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\Juan Pablo\.m2\repository\org\atteo\evo-inflector\1.2.2\evo-inflector-1.2.2.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-common\4.1.65.Final\netty-common-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-buffer\4.1.65.Final\netty-buffer-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-transport\4.1.65.Final\netty-transport-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-resolver\4.1.65.Final\netty-resolver-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-codec\4.1.65.Final\netty-codec-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-handler\4.1.65.Final\netty-handler-4.1.65.Final.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="C:\Users\Juan Pablo\.jdks\openjdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Juan Pablo\AppData\Local\Temp\surefire15365324931328964692\surefirebooter-20220823151655814_3.jar C:\Users\Juan Pablo\AppData\Local\Temp\surefire15365324931328964692 2022-08-23T15-16-54_612-jvmRun1 surefire-20220823151655814_1tmp surefire_0-20220823151655814_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server\target\test-classes;C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server\target\classes;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.1\spring-boot-starter-data-jpa-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.1\spring-boot-starter-aop-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.1\spring-boot-starter-jdbc-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-jdbc\5.3.8\spring-jdbc-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Juan Pablo\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\Juan Pablo\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\Juan Pablo\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Juan Pablo\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\Juan Pablo\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Juan Pablo\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Juan Pablo\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Juan Pablo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\Juan Pablo\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\Juan Pablo\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Juan Pablo\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-orm\5.3.8\spring-orm-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-context\5.3.8\spring-context-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-tx\5.3.8\spring-tx-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-beans\5.3.8\spring-beans-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-aspects\5.3.8\spring-aspects-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.1\spring-boot-starter-security-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.1\spring-boot-starter-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot\2.5.1\spring-boot-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.1\spring-boot-autoconfigure-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.1\spring-boot-starter-logging-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Juan Pablo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Juan Pablo\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Juan Pablo\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-aop\5.3.8\spring-aop-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-expression\5.3.8\spring-expression-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.1\spring-boot-starter-web-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.1\spring-boot-starter-json-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.1\spring-boot-starter-tomcat-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-web\5.3.8\spring-web-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-webmvc\5.3.8\spring-webmvc-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\session\spring-session-core\2.5.0\spring-session-core-2.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-jcl\5.3.8\spring-jcl-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\Juan Pablo\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.1\spring-boot-starter-test-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-test\2.5.1\spring-boot-test-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.1\spring-boot-test-autoconfigure-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Juan Pablo\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Juan Pablo\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Juan Pablo\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Juan Pablo\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\Juan Pablo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Juan Pablo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\Juan Pablo\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\Juan Pablo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\Juan Pablo\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Juan Pablo\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\Juan Pablo\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Juan Pablo\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-core\5.3.8\spring-core-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\spring-test\5.3.8\spring-test-5.3.8.jar;C:\Users\Juan Pablo\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-test\5.5.0\spring-security-test-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.5.1\spring-boot-starter-validation-2.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar;C:\Users\Juan Pablo\.m2\repository\org\hibernate\validator\hibernate-validator\6.2.0.Final\hibernate-validator-6.2.0.Final.jar;C:\Users\Juan Pablo\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\Juan Pablo\.m2\repository\com\sendgrid\sendgrid-java\4.9.3\sendgrid-java-4.9.3.jar;C:\Users\Juan Pablo\.m2\repository\com\sendgrid\java-http-client\4.5.0\java-http-client-4.5.0.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar;C:\Users\Juan Pablo\.m2\repository\org\modelmapper\modelmapper\3.1.0\modelmapper-3.1.0.jar;C:\Users\Juan Pablo\.m2\repository\org\modelmapper\extensions\modelmapper-spring\3.1.0\modelmapper-spring-3.1.0.jar;C:\Users\Juan Pablo\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.12.1\aws-java-sdk-s3-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.12.1\aws-java-sdk-kms-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\aws-java-sdk-core\1.12.1\aws-java-sdk-core-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Juan Pablo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Juan Pablo\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.12.3\jackson-dataformat-cbor-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\Juan Pablo\.m2\repository\com\amazonaws\jmespath-java\1.12.1\jmespath-java-1.12.1.jar;C:\Users\Juan Pablo\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-ui\1.6.9\springdoc-openapi-ui-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-webmvc-core\1.6.9\springdoc-openapi-webmvc-core-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-common\1.6.9\springdoc-openapi-common-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\io\swagger\core\v3\swagger-core\2.2.0\swagger-core-2.2.0.jar;C:\Users\Juan Pablo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Juan Pablo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.12.3\jackson-dataformat-yaml-2.12.3.jar;C:\Users\Juan Pablo\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.0\swagger-annotations-2.2.0.jar;C:\Users\Juan Pablo\.m2\repository\io\swagger\core\v3\swagger-models\2.2.0\swagger-models-2.2.0.jar;C:\Users\Juan Pablo\.m2\repository\org\webjars\swagger-ui\4.11.1\swagger-ui-4.11.1.jar;C:\Users\Juan Pablo\.m2\repository\org\webjars\webjars-locator-core\0.46\webjars-locator-core-0.46.jar;C:\Users\Juan Pablo\.m2\repository\io\github\classgraph\classgraph\4.8.147\classgraph-4.8.147.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-data-rest\1.6.9\springdoc-openapi-data-rest-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springdoc\springdoc-openapi-hateoas\1.6.9\springdoc-openapi-hateoas-1.6.9.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\hateoas\spring-hateoas\1.3.1\spring-hateoas-1.3.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\data\spring-data-rest-core\3.5.1\spring-data-rest-core-3.5.1.jar;C:\Users\Juan Pablo\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\Juan Pablo\.m2\repository\org\atteo\evo-inflector\1.2.2\evo-inflector-1.2.2.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-common\4.1.65.Final\netty-common-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-buffer\4.1.65.Final\netty-buffer-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-transport\4.1.65.Final\netty-transport-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-resolver\4.1.65.Final\netty-resolver-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-codec\4.1.65.Final\netty-codec-4.1.65.Final.jar;C:\Users\Juan Pablo\.m2\repository\io\netty\netty-handler\4.1.65.Final\netty-handler-4.1.65.Final.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Juan Pablo"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Users\Juan Pablo\.jdks\openjdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\Juan Pablo\AppData\Local\Temp\surefire15365324931328964692\surefirebooter-20220823151655814_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="Juan Pablo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="spring.beaninfo.ignore" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Juan Pablo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JUANPA~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="10740"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Juan Pablo\.jdks\openjdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Juan Pablo\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin;;C:\Users\Juan Pablo\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.alkemy.ong.OngApplicationTests" time="0.018">
+    <system-out><![CDATA[15:17:33.368 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:17:33.368 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:17:33.392 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.alkemy.ong.OngApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:17:33.419 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.alkemy.ong.OngApplicationTests], using SpringBootContextLoader
+15:17:33.424 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.alkemy.ong.OngApplicationTests]: class path resource [com/alkemy/ong/OngApplicationTests-context.xml] does not exist
+15:17:33.424 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.alkemy.ong.OngApplicationTests]: class path resource [com/alkemy/ong/OngApplicationTestsContext.groovy] does not exist
+15:17:33.424 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.alkemy.ong.OngApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:17:33.433 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.alkemy.ong.OngApplicationTests]: OngApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:17:33.736 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server\target\classes\com\alkemy\ong\OngApplication.class]
+15:17:33.738 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.alkemy.ong.OngApplication for test class com.alkemy.ong.OngApplicationTests
+15:17:34.200 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.alkemy.ong.OngApplicationTests]: using defaults.
+15:17:34.200 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+15:17:34.226 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18269eaf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e7ec577, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2adad906, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@d862de5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2179091c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49443539, org.springframework.test.context.transaction.TransactionalTestExecutionListener@352ad7fe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@97f2dbb, org.springframework.test.context.event.EventPublishingTestExecutionListener@6027f461, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@822e8a1, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6b544b7c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1bb6a158, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@446dcab3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b95557f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1253fada, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3cc135a9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@165348d0]
+15:17:34.228 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@679cd9c8 testClass = OngApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6a146acb testClass = OngApplicationTests, locations = '{}', classes = '{class com.alkemy.ong.OngApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a389173, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@795fd838, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60fd51a1, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@476a736d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@8ed9cf, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@13d4992d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+15:17:34.518 [main] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [test]
+15:17:34.518 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.1)
+
+2022-08-23 15:17:36.477  INFO 10740 --- [           main] com.alkemy.ong.OngApplicationTests       : Starting OngApplicationTests using Java 18.0.1.1 on DESKTOP-FVQQTEO with PID 10740 (started by Juan Pablo in C:\Users\Juan Pablo\Desktop\Alkemy\Proyecto\OT249-Server)
+2022-08-23 15:17:36.483  INFO 10740 --- [           main] com.alkemy.ong.OngApplicationTests       : The following profiles are active: test
+2022-08-23 15:17:43.579  INFO 10740 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-23 15:17:44.262  INFO 10740 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 585 ms. Found 11 JPA repository interfaces.
+2022-08-23 15:17:48.592  INFO 10740 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@39785b39' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-23 15:17:48.735  INFO 10740 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-23 15:17:49.664  INFO 10740 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-23 15:17:51.447  INFO 10740 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-23 15:17:51.976  INFO 10740 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-23 15:17:52.331  INFO 10740 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-08-23 15:17:52.544  INFO 10740 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-23 15:17:53.300  INFO 10740 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: 
+    
+    drop table if exists activities CASCADE 
+Hibernate: 
+    
+    drop table if exists categories CASCADE 
+Hibernate: 
+    
+    drop table if exists comments CASCADE 
+Hibernate: 
+    
+    drop table if exists contacts CASCADE 
+Hibernate: 
+    
+    drop table if exists members CASCADE 
+Hibernate: 
+    
+    drop table if exists news CASCADE 
+Hibernate: 
+    
+    drop table if exists organizations CASCADE 
+Hibernate: 
+    
+    drop table if exists roles CASCADE 
+Hibernate: 
+    
+    drop table if exists slides CASCADE 
+Hibernate: 
+    
+    drop table if exists testimonials CASCADE 
+Hibernate: 
+    
+    drop table if exists users CASCADE 
+Hibernate: 
+    
+    create table activities (
+       id varchar(255) not null,
+        content varchar(255) not null,
+        deleted boolean,
+        image varchar(255) not null,
+        name varchar(255) not null,
+        timestamp timestamp,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table categories (
+       id varchar(255) not null,
+        deleted boolean,
+        description varchar(255),
+        image varchar(255),
+        name varchar(255) not null,
+        timestamp timestamp,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table comments (
+       id varchar(255) not null,
+        body varchar(255),
+        deleted boolean not null,
+        timestamp timestamp,
+        news_id varchar(255),
+        user_id varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table contacts (
+       id varchar(255) not null,
+        deleted boolean,
+        email varchar(255),
+        message varchar(255),
+        name varchar(255),
+        phone varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table members (
+       id varchar(255) not null,
+        description varchar(255),
+        facebook_url varchar(255),
+        image varchar(255) not null,
+        instagram_url varchar(255),
+        is_delete boolean,
+        linkedin_url varchar(255),
+        name varchar(255) not null,
+        timestamp timestamp,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table news (
+       id varchar(255) not null,
+        content TEXT not null,
+        image varchar(255) not null,
+        name varchar(255) not null,
+        soft_delete boolean not null,
+        timestamp timestamp,
+        category_id varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table organizations (
+       id varchar(255) not null,
+        about_us_text varchar(255),
+        address varchar(255),
+        deleted boolean,
+        email varchar(255) not null,
+        image varchar(255) not null,
+        name varchar(255) not null,
+        phone varchar(255),
+        timestamp timestamp,
+        url_facebook varchar(255),
+        url_instagram varchar(255),
+        url_linkedin varchar(255),
+        welcome_text varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table roles (
+       id varchar(255) not null,
+        description varchar(255),
+        name varchar(255) not null,
+        timestamp timestamp,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table slides (
+       id varchar(255) not null,
+        image_url varchar(255),
+        position integer,
+        text varchar(255),
+        organization_id varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table testimonials (
+       id varchar(255) not null,
+        content varchar(255),
+        image varchar(255),
+        name varchar(255) not null,
+        soft_delete boolean,
+        timestamp timestamp,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table users (
+       id varchar(255) not null,
+        deleted boolean not null,
+        email varchar(255) not null,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        photo varchar(255) not null,
+        timestamp timestamp,
+        rol_id varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    alter table comments 
+       add constraint FKqx89vg0vuof2ninmn5x5eqau2 
+       foreign key (news_id) 
+       references news
+Hibernate: 
+    
+    alter table comments 
+       add constraint FK8omq0tc18jd43bu5tjh6jvraq 
+       foreign key (user_id) 
+       references users
+Hibernate: 
+    
+    alter table news 
+       add constraint FK6itmfjj4ma8lfpj10jx24mhvx 
+       foreign key (category_id) 
+       references categories
+Hibernate: 
+    
+    alter table slides 
+       add constraint FKc1tk87wsxkelfjdm2jxt57e2k 
+       foreign key (organization_id) 
+       references organizations
+Hibernate: 
+    
+    alter table users 
+       add constraint FKgqf6aajl2lwd68xv9ypxpo7ra 
+       foreign key (rol_id) 
+       references roles
+2022-08-23 15:17:56.639  INFO 10740 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-23 15:17:56.691  INFO 10740 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-23 15:18:02.800  WARN 10740 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-23 15:18:05.099  INFO 10740 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2de16942, org.springframework.security.web.context.SecurityContextPersistenceFilter@50be6fd9, org.springframework.security.web.header.HeaderWriterFilter@60ebde43, com.alkemy.ong.security.CustomExceptionHandler@250f0804, org.springframework.security.web.authentication.logout.LogoutFilter@63bada7a, com.alkemy.ong.security.CustomAuthorizationFilter@3102ab04, com.alkemy.ong.security.CustomAuthenticationFilter@2c8672cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cdc23a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@200aa590, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28e9c8f, org.springframework.security.web.session.SessionManagementFilter@594d0ad3, org.springframework.security.web.access.ExceptionTranslationFilter@2f48d6d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bd32c2]
+2022-08-23 15:18:10.748  INFO 10740 --- [           main] com.alkemy.ong.OngApplicationTests       : Started OngApplicationTests in 36.194 seconds (JVM running for 74.518)
+]]></system-out>
+  </testcase>
+</testsuite>
